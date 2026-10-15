@@ -1,0 +1,17 @@
+angolo_triangolo.go
+centigradi_fahrenheit.go
+consumo_resa.go
+conversione_giorni.go
+conversione_secondi.go
+distanza_punti.go
+echo.go
+guessme.go
+intersezione_rette.go
+main.go
+no_out.go
+operazioni.go
+operazioni_int2.go
+operazioni_int.go
+quoziente_resto.go
+random.go
+scambio.go
