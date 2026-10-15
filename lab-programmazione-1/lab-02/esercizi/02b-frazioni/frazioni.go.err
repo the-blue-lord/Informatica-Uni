@@ -1,0 +1,40 @@
+package main
+
+import "fmt"
+
+func main() {
+	var n1, d1, n2, d2 int;
+
+	fmt.Print("num e den fraz 1: ");
+	fmt.Scan(&n1, &d1);
+	fmt.Print("num e den fraz 2: ");
+	fmt.Scan(&n2, &d2);
+
+
+	if(d1 * d2 == 0) {
+		fmt.Printn("il denominatore di una frazione non può essere 0");
+		return;
+	}
+
+	segno := 1;
+	if(d1 * d2 < 0) {
+		segno = -1;
+	}
+
+	n1,
+	d1,
+	n2,
+	d2 =
+	segno * n1 * d2,
+	segno * d1 * d2,
+	segno * n2 * d1,
+	segno * d2 * d1;
+
+	frazioni_equivalenti := 
+
+	if(frazioni_equivalenti) {
+		fmt.Print("non ")
+	}
+
+	fmt.Println("equivalenti");
+}
