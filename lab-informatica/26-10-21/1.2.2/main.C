@@ -13,6 +13,6 @@ int main(void) {
         << "x: \t" << x << "\n" 
         << "y: \t" << y << "\n"
         << "a/b: \t" << a / b << "\n"
-        << "c/d: \t" << c / d << "\n" 
+        << "c/d: \t" << c / d << "\n"
         << "\nCon difre decimali\na/b: " << (float) a/b << "\n";
 }
