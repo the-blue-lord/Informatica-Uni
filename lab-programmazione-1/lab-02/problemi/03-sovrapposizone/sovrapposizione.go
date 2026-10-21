@@ -10,7 +10,7 @@ func main() {
 	fmt.Print("appuntamento 2 (gg, start, end): ");
 	fmt.Scan(&g2, &i2, &f2);
 
-	if(g1 != g2 || i1 <= i2 && i2 < f1 || i1 < f2 && f2 <= f1) {
+	if(g1 != g2 || (i1 > i2 || i2 >= f1) && (i1 >= f2 || f2 > f1)) {
 		fmt.Print("non ");
 	}
 

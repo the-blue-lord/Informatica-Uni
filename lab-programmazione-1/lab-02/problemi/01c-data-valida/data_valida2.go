@@ -14,12 +14,11 @@ func main() {
 
 	if(m == 4 || m == 6 || m == 9 || m == 11) {
 		g_max = 30;
-	}
-	else if(m == 2) {
+	} else if(m == 2) {
 		g_max = 28;
 	}
 
-	if(g <= 0 || m <= 0 || a <= 0 || g>g_max || m>12) {
+	if(g <= 0 || m <= 0 || g>g_max || m>12) {
 		fmt.Print("non ");
 	}
 

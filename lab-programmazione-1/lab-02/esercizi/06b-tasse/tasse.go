@@ -18,7 +18,7 @@ func main() {
 	fmt.Print("reddito? ");
 	fmt.Scan(&r);
 	fmt.Print("coniugato? (true/false) ");
-	fmt.Scan(&sc);
+	fmt.Scan(&cs);
 
 	if(cs == VALORE_PER_TRUE) {
 		c = true;
@@ -30,10 +30,9 @@ func main() {
 	}
 	fmt.Print("coniugato con reddito ", r, ": ");
 
-	if(c && r <= SOGLIA_CONIUGATO || !c && <= SOGLIA_NON_CONIUGATO) {
-		fmt.Println(r*ALIQUOTA_INFERIORE);
-	}
-	else {
-		fmt.Println(r*ALIQUOTA_SUPERIORE);
+	if(c && r <= SOGLIA_CONIUGATO || !c && r <= SOGLIA_NON_CONIUGATO) {
+		fmt.Println(int(float64(r)*float64(ALIQUOTA_INFERIORE)));
+	} else {
+		fmt.Println(int(float64(r)*float64(ALIQUOTA_SUPERIORE)));
 	}
 }

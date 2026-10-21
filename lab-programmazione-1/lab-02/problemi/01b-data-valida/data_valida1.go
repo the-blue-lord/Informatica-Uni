@@ -10,7 +10,7 @@ func main() {
 
 	fmt.Print("data ");
 
-	if(g <= 0 || m <= 0 || a <= 0 || g>31 || m>12) {
+	if(g <= 0 || m <= 0 || g>31 || m>12) {
 		fmt.Print("non ")
 	}
 

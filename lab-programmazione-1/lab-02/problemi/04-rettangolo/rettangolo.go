@@ -25,10 +25,10 @@ func main() {
 	fmt.Print("P3 ");
 
 	if(x_min < x && x < x_max && y_min < y && y < y_max) {
-		fmt.Prinln("interno");
+		fmt.Println("interno");
 	} else if (x < x_min || x > x_max || y < y_min || y > y_max) {
-		fmt.Prinln("esterno");
+		fmt.Println("esterno");
 	} else {
-		fmt.Prinln("perimetrale");
+		fmt.Println("perimetrale");
 	}
 }
